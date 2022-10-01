@@ -9,7 +9,9 @@
  - Scikit-Learn, 
  - Pandas, 
  - Numpy, 
- - Pillow
+ - Pillow,
+ - MADGRAD,
+ - InplaceABN
 
 **Краткое описание решения**
 
