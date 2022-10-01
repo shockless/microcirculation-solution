@@ -11,11 +11,18 @@
  - Numpy, 
  - Pillow
 
-**Solution Description:**
+**Краткое описание решения**
 
-1. Pretrain U-Net using efficientnet backbone with Third-party Vessel Segmentation Data
-2. Train the model on Microcirculation Data on cross-validation
-3. Predict Test Data with cross-validaion folds models
-4. Weight and average the results obtained
-5. Round predictions with some treshold
-6. Zip predicted masks
+Получение изображений происходит с помощью модели нейронной сети, использующая разные методы оптимизации для получения качественных картинок глазных сосудов
+
+
+
+**Технические особенности**
+
+Madgrad, Unet++, RegNetY, InplaceABN
+
+
+
+**Уникальность решения**
+
+Использована технология InplaceABN, позволяющая поставить больший размер батча и уменьшить нагрузку на GPU
